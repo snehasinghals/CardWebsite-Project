@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+
+        .container{
+            width: 100vw;
+            height: 100vh;
+        
+            background-color: #3E6575;
+            /* background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card{
+            height: 600px;
+            width: 800px;
+
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .rightBox{
+            height: 100%;
+            width: 75%;
+        }
+
+        .leftBox{
+            width: 30%;
+            height: 100%;
+        }
+
+        .rightBox img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .leftBox{
+            width: 100%;
+            height: 100%;
+
+            background-color: rgb(63, 6, 63);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 25px;
+        }
+
+        .leftBox h1{
+            font-weight: bold;
+            color: white;
+            font-size: 3.5rem;
+        }
+
+        .para{
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .stateBox{
+            display: flex;
+            color: white;
+            justify-content: space-between;
+        }
+
+        .stateBox h2{
+            font-weight: bold;
+            font-size: 2.3rem;
+        }
+
+        .stateBox p{
+            font-size: 1.3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="leftBox">
+                <div class="heading">
+                    <h1>Get insights that help your business grow</h1>
+                </div>
+
+                <div class="para">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio hic possimus, temporibus ullam ex eius incidunt libero pariatur laborum ratione! Nulla quidem laudantium fugiat eius quia itaque eum sint possimus?</p>
+                </div>
+
+                <div class="stateBox">
+                    <div class="first">
+                        <h2>10K+</h2>
+                        <P>Comments</P>
+                    </div>
+                    <div class="second">
+                        <h2>214</h2>
+                        <p>Paid Users</p>
+                    </div>
+                    <div class="third">
+                        <h2>12M+</h2>
+                        <p>Views</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightBox">
+                <img src="tech.png" alt="Image">
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
